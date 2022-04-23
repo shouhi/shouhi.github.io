@@ -66,7 +66,7 @@ const Home = () => (
             overflow='hidden'
           >
             <ProfileImage
-              src="../public/images/shouhi.png"
+              src="/images/Shouhi.png"
               alt="Profile image"
               borderRadius='full'
               width="100%"
