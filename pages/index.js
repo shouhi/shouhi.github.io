@@ -71,10 +71,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Shouhi is a Student and a app developer based in Hyogo,Nishinomiya with my friends .
-          <NextLink href="/works/ProTask" scroll={false}>
-            <Link>ProTask</Link>
-          </NextLink>
+          Shouhi is a Student and an app developer based in Hyogo,Nishinomiya with my friends .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -90,32 +87,40 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2000</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2000.9.22</BioYear>
+          Born in Osaka, Japan.
         </BioSection>
         <BioSection>
-          <BioYear>2016</BioYear>
-           at 関西福祉科学大学高等学校特進Iコース
-        </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          at 関西学院大学商学部
-        </BioSection>
-        <BioSection>
-          <BioYear>2020.5</BioYear>
-        ビジネスプランコンテストの出場をきっかけにプログラミングを独学で開始
+          <BioYear>2019.4</BioYear>
+          Enroll at KwanseiGakuin University
         </BioSection>
         <BioSection>
           <BioYear>2020.10.26</BioYear>
-        プログラミング研究会Tech.Uniを創設
+        Found Tech.Uni, IT Organization
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
-          個人事業主 LienPuffとして開業
+          <BioYear>2021.3</BioYear>
+          Started business as freelance
         </BioSection>
         <BioSection>
-          <BioYear>2022 to present</BioYear>
-          at 関西学院大学商学部
+          <BioYear>2021.9</BioYear>
+          Yahoo!JAPAN Inc. Frontend Engineer Intern
+        </BioSection>
+        <BioSection>
+          <BioYear>2021.11</BioYear>
+          Rakuten Group Inc. Backend Engineer Intern
+        </BioSection>
+        <BioSection>
+          <BioYear>2021.10~2022.3</BioYear>
+          COOON Inc. CTO
+        </BioSection>
+        <BioSection>
+          <BioYear>2022.1</BioYear>
+          hey Inc. Frontend Engineer Intern
+        </BioSection>
+        <BioSection>
+          <BioYear>2022.1~</BioYear>
+          Genit Inc. Mobile Engineer
         </BioSection>
       </Section>
 
