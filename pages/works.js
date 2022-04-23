@@ -6,6 +6,8 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbProTask from '../public/images/works/ProTask.png'
 import thumbProTain from '../public/images/works/ProTain.png'
 import thumbTechUni from '../public/images/works/TechUni.png'
+import thumbSEEDAS from '../public/images/works/SEEDAS.png'
+import thumbBloom from '../public/images/works/Bloom.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -16,13 +18,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="protask" title="ProTask" thumbnail={thumbProTask}>
+          <WorkGridItem id="ProTask" title="ProTask" thumbnail={thumbProTask}>
             関西学院大学の学生専用課題管理アプリ
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="protain"
+            id="ProTain"
             title="ProTain"
             thumbnail={thumbProTain}
           >
@@ -32,11 +34,29 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="techuni"
+            id="TechUni"
             title="Tech.Uni"
             thumbnail={thumbTechUni}
           >
             IT系学生団体
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="Bloom"
+            title="Bloom"
+            thumbnail={thumbBloom}
+          >
+            完全会員制飲食店
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="SEEDAS"
+            title="SEEDAS🌱"
+            thumbnail={thumbSEEDAS}
+          >
+            学生カフェ事業
           </WorkGridItem>
         </Section>
       </SimpleGrid>
