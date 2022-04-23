@@ -9,7 +9,6 @@ import {
   List,
   ListItem,
   useColorModeValue,
-  chakra
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -22,11 +21,8 @@ import thumbProTask from '../public/images/works/ProTask.png'
 import thumbProTain from '../public/images/works/ProTain.png'
 import thumbTechUni from '../public/images/works/TechUni.png'
 import thumbSEEDAS from '../public/images/works/SEEDAS.png'
-import Image from 'next/image'
+import { MyImage } from '../components/avatar'
 
-const ProfileImage = chakra(Image, {
-  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-})
 
 const Home = () => (
   <Layout>
@@ -65,13 +61,7 @@ const Home = () => (
             borderRadius="full"
             overflow='hidden'
           >
-            <ProfileImage
-              src="/../public/images/shouhi.png"
-              alt="Profile image"
-              borderRadius='full'
-              width="100%"
-              height="100%"
-            />
+            <MyImage/>
           </Box>
         </Box>
       </Box>
