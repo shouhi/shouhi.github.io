@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Shouhi's homepage" />
+        <meta name="description" content="Shouhi's portfolio" />
         <meta name="author" content="Shouhi Ide" />
         <meta name="author" content="shouhi" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -24,10 +24,10 @@ const Main = ({ children, router }) => {
         <meta name="twitter:site" content="@shouhi_ide" />
         <meta name="twitter:creator" content="@shouhi_ide" />
         <meta name="twitter:image" content="/card.png" />
-        <meta property="og:site_name" content="Shouhi Ide's Homepage" />
+        <meta property="og:site_name" content="Shouhi Ide's Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
-        <title>Shouhi Ide - Homepage</title>
+        <title>Shouhi Ide - Portfolio</title>
       </Head>
 
       <NavBar path={router.asPath} />
