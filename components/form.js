@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import { AspectRatio } from '@chakra-ui/react'
+
 
 export default function Form() {
   const router = useRouter();
@@ -23,6 +25,7 @@ export default function Form() {
   return (
     // onLoadイベントを設定
     <div onLoad={redirect}>
+      <AspectRatio maxW='1800px' ratio={0.5}>
       <iframe
         title="apply"
         src="https://docs.google.com/forms/d/e/1FAIpQLSdw0h2DzaimN6AGeH7PclWqVj6XZepmEfGpC8Ku_xxlmS7dBA/viewform?usp=sf_link" // 対象のGoogleフォームURL
@@ -34,6 +37,8 @@ export default function Form() {
       >
         読み込んでいます…
       </iframe>
+      </AspectRatio>
+      
     </div>
   );
 }
