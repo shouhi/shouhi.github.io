@@ -8,12 +8,13 @@ import thumbProTain from '../public/images/works/ProTain.png'
 import thumbTechUni from '../public/images/works/TechUni.png'
 import thumbSEEDAS from '../public/images/works/SEEDAS.png'
 import thumbBloom from '../public/images/works/Bloom.png'
+import thumbWeb from '../public/images/works/web.png'
 
 const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Products
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -31,17 +32,35 @@ const Works = () => (
             筋トレ管理SNS
           </WorkGridItem>
         </Section>
+      </SimpleGrid>
 
-        <Section delay={0.1}>
+      <Section delay={0.2}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Bussiness
+        </Heading>
+      </Section>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section delay={0.2}>
           <WorkGridItem
-            id="TechUni"
-            title="Tech.Uni"
-            thumbnail={thumbTechUni}
+            id="webp"
+            title="Webp"
+            thumbnail={thumbWeb}
           >
-            IT系学生団体
+            Web制作 / アプリ開発事業
           </WorkGridItem>
         </Section>
-        <Section delay={0.2}>
+        {/* <Section delay={0.2}>
+          <WorkGridItem
+            id="LienPuff"
+            title="LienPuff"
+            thumbnail={thumbWeb}
+          >
+            エンジニアバー / 飲食店事業
+          </WorkGridItem>
+        </Section> */}
+      <Section delay={0.2}>
           <WorkGridItem
             id="Bloom"
             title="Bloom"
@@ -59,71 +78,23 @@ const Works = () => (
             学生カフェ事業
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
-
+        </SimpleGrid>
       <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Community
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
+      <Section delay={0.1}>
           <WorkGridItem
-            id="protask"
-            thumbnail={thumbProTask}
-            title="ProTask"
+            id="TechUni"
+            title="Tech.Uni"
+            thumbnail={thumbTechUni}
           >
-            ・・・
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="protask"
-            thumbnail={thumbProTask}
-            title="ProTask"
-          >
-            ・・・
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Old works
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="protask"
-            thumbnail={thumbProTask}
-            title="ProTask"
-          >
-            ・・・
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="protask"
-            thumbnail={thumbProTask}
-            title="ProTask"
-          >
-            ・・・
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
-        <WorkGridItem
-            id="protask"
-            thumbnail={thumbProTask}
-            title="ProTask"
-          >
-            ・・・
+            IT系学生団体
           </WorkGridItem>
         </Section>
       </SimpleGrid>
