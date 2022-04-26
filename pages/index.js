@@ -119,7 +119,7 @@ const Home = () => (
           hey Inc. Frontend Engineer Intern
         </BioSection>
         <BioSection>
-          <BioYear>2022.1~</BioYear>
+          <BioYear>2022.1~4</BioYear>
           Genit Inc. Mobile Engineer
         </BioSection>
       </Section>
