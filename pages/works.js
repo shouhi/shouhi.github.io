@@ -9,6 +9,7 @@ import thumbTechUni from '../public/images/works/TechUni.png'
 import thumbSEEDAS from '../public/images/works/SEEDAS.png'
 import thumbBloom from '../public/images/works/Bloom.png'
 import thumbWeb from '../public/images/works/web.png'
+import thumbHackBAR from '../public/images/works/Hack.BAR.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -51,15 +52,15 @@ const Works = () => (
             Web制作 / アプリ開発事業
           </WorkGridItem>
         </Section>
-        {/* <Section delay={0.2}>
+        <Section delay={0.2}>
           <WorkGridItem
-            id="LienPuff"
-            title="LienPuff"
-            thumbnail={thumbWeb}
+            id="HackBAR"
+            title="Hack.BAR"
+            thumbnail={thumbHackBAR}
           >
-            エンジニアバー / 飲食店事業
+            エンジニアバー / 飲食店経営
           </WorkGridItem>
-        </Section> */}
+        </Section>
       <Section delay={0.2}>
           <WorkGridItem
             id="Bloom"
