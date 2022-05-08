@@ -4,7 +4,6 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -15,12 +14,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoTiktok, IoLogoLinkedin } from 'react-icons/io5'
-import thumbProTask from '../public/images/works/ProTask.png'
-import thumbProTain from '../public/images/works/ProTain.png'
-import thumbTechUni from '../public/images/works/TechUni.png'
-import thumbSEEDAS from '../public/images/works/SEEDAS.png'
 import { MyImage } from '../components/avatar'
 
 
@@ -122,6 +116,10 @@ const Home = () => (
           <BioYear>2022.1~4</BioYear>
           Genit Inc. Mobile Engineer
         </BioSection>
+        <BioSection>
+          <BioYear>2022.5~</BioYear>
+          Enginner&apos;s BAR - Hack.BAR - 
+        </BioSection>
       </Section>
 
       <Section delay={0.3}>
@@ -164,17 +162,6 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/TechUni1026" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @TechUni1026 (IT Organization)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
             <Link href="https://instagram.com/shouhi_ide" target="_blank">
               <Button
                 variant="ghost"
@@ -208,45 +195,6 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
-
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://protaskg.studio.site/"
-            title="ProTask"
-            thumbnail={thumbProTask}
-          >
-            関西学院大学の学生専用課題管理アプリ
-          </GridItem>
-          <GridItem
-            href="https://protain29.studio.site/"
-            title="ProTain"
-            thumbnail={thumbProTain}
-          >
-            筋トレ管理SNS 
-          </GridItem>
-          <GridItem
-            href="https://techuni.org/"
-            title="Tech.Uni"
-            thumbnail={thumbTechUni}
-          >
-            IT系学生団体
-          </GridItem>
-          <GridItem
-            href="https://b-loom.jp/"
-            title="Bloom🌱"
-            thumbnail={thumbSEEDAS}
-          >
-            学生カフェ事業 | 完全会員制飲食店 
-          </GridItem>
-        </SimpleGrid>
-
-        <Box align="center" my={4}>
-          <NextLink href="/blogs" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular Blogs
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
     </Container>
   </Layout>

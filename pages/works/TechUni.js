@@ -7,11 +7,15 @@ import {
     Heading,
     Center,
     useColorModeValue,
+    List,
+    ListItem,
+    Button,
   } from '@chakra-ui/react'
   import { GridItem } from '../../components/grid-item'
   import Layout from '../../components/layouts/article'
   import { Title } from '../../components/work'
   import P from '../../components/paragraph'
+  import { IoLogoTwitter, IoLogoInstagram} from 'react-icons/io5'
   import thumbTechUni from '../../public/images/works/TechUni.png'
   import thumbTechUni_ambassador from '../../public/images/works/TechUni_ambassador.png'
 
@@ -54,6 +58,30 @@ import {
               <Link href='https://note.com/shouhi/n/n972cbd63014f' ml={3}>Tech.Uni創設の話 note</Link>
            </P>
         </Box>
+        <List>
+          <ListItem>
+            <Link href="https://twitter.com/TechUni1026" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                @TechUni1026 (Tech.Uni | 関西学院大学プログラミング研究会)
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://instagram.com/tech_uni1026" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                @tech_uni1026 (Tech.Uni | 関西学院大学プログラミング研究会)
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
         <Heading as="h4" fontSize={16} my={6}>
           <Center>IT系学生団体</Center>
         </Heading>
