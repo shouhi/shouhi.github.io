@@ -120,6 +120,10 @@ const Home = () => (
           <BioYear>2022.5~</BioYear>
           Enginner&apos;s BAR - Hack.BAR - 
         </BioSection>
+        <BioSection>
+          <BioYear>2023.4~</BioYear>
+          Yahoo!JAPAN Inc. Software Engineer
+        </BioSection>
       </Section>
 
       <Section delay={0.3}>

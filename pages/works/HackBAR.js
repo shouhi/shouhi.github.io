@@ -19,6 +19,7 @@ import {
     Button
   } from '@chakra-ui/react'
   import { GridItem } from '../../components/grid-item'
+  import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
   import { Title } from '../../components/work'
   import { IoLogoTwitter, IoLogoInstagram} from 'react-icons/io5'
@@ -48,7 +49,10 @@ import {
         > 
           ふと、東京・六本木にあるエンジニアバーに行ってみたいと思ったが距離が遠い、、
           「そうだ。自分で三宮に創ってしまおう」そんな成り行きでオープンしました
-          
+          <P>コンテンツ
+            <Link href='https://hack-bar.vercel.app/' ml={3}>ホームページ</Link>
+            <Link href='https://twitter.com/EngineerBarKobe/status/1523143487050612737?s=20&t=H5WaOv4je5nqya5bk6bNJg' ml={3}>反響あったツイート</Link>
+         </P>
         </Box>
         <Box
           borderRadius="lg"
