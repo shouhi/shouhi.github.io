@@ -67,7 +67,7 @@ import {
           </Heading>
           <TableContainer>
             <Table variant='simple' size='sm'>
-              <TableCaption>プレオープンイベントは二部制・事前申し込み者限定です</TableCaption>
+              <TableCaption>イベント開催は二部制・事前申し込み者限定です</TableCaption>
               <Thead>
                 <Tr>
                   <Th>日時</Th>
@@ -76,16 +76,12 @@ import {
               </Thead>
               <Tbody>
                 <Tr>
-                  <Td>5/21(土) ①18:00 ~ 20:00 / ②21:00 ~ 23:00</Td>
-                  <Td>プレオープンイベント</Td>
-                </Tr>
-                <Tr>
-                  <Td>5/23(月) 18:00 ~ 23:00</Td>
-                  <Td>オープン</Td>
-                </Tr>
-                <Tr>
-                  <Td>毎週月曜日・木曜日 18:00 ~ 23:00</Td>
+                  <Td>毎週水曜日・木曜日・金曜日 18:00 ~ 23:00</Td>
                   <Td>固定オープン日</Td>
+                </Tr>
+                <Tr>
+                  <Td>6/25(土) ①18:00 ~ 20:00 / ②21:00 ~ 23:00</Td>
+                  <Td>イベント開催</Td>
                 </Tr>
               </Tbody>
             </Table>

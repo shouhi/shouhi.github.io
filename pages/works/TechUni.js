@@ -50,7 +50,8 @@ import {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
           2020年10月26日に自身の経験からエンジニアの友達が欲しいと思いたち関西学院大学のプログラミング研究会として創設。
-          現在メンバー総数107名・企業提携社数11社・全国大会出場経験有りと実績を積み重ねて「今後100年続くIT系学生団体」として活動中
+          2022年5月に会長として就任し団体運営方針を握る。さらに同月私が代表取締役務める株式会社MAGIE COMPANYを運営会社とする。<br></br>
+          現在メンバー総数135名・企業提携社数11社・全国大会出場経験有りと実績を積み重ねて「今後100年続くIT系学生団体」として活動中。
            <P>メディア
               <Link href='https://www.kwansei.ac.jp/shakairenkei/news/detail/278' ml={3}>関西学院大学</Link>
               <Link href='https://note.com/techbowl/n/n8155b9a953eb' ml={3}>株式会社TechBowlアンバサダー加盟</Link>
