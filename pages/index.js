@@ -7,7 +7,6 @@ import {
   Button,
   List,
   ListItem,
-  useColorModeValue,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -21,28 +20,11 @@ import { MyImage } from '../components/avatar'
 const Home = () => (
   <Layout>
     <Container>
-      <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      >
-        Hello, I&apos;m a Student at KwanseiGakuin.uni!
-      </Box>
-
       <Box display={{ md: 'flex' }}>
-        <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title">
-            Shouhi Ide
-          </Heading>
-          <p>founder of Tech.Uni, IT Organization </p>
-          <p>app developer</p>
-        </Box>
-        <Box
+      <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
+          mr={{ md: 6 }}
           textAlign="center"
         >
           <Box
@@ -58,18 +40,27 @@ const Home = () => (
             <MyImage/>
           </Box>
         </Box>
+        <Box flexGrow={1}>
+          <Heading as="h2" variant="page-title">
+            Shouhi Ide
+          </Heading>
+          <p>MAGIE COMPANY Inc. 代表取締役</p>
+          <p>founder of Tech.Uni, IT Organization </p>
+          <p>app developer</p>
+        </Box>
+        
       </Box>
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About
         </Heading>
         <Paragraph>
           Shouhi is a Student and an app developer based in Hyogo,Nishinomiya with my friends .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
               My portfolio
             </Button>
           </NextLink>
@@ -121,23 +112,14 @@ const Home = () => (
           Enginner&apos;s BAR - Hack.BAR - 
         </BioSection>
         <BioSection>
+          <BioYear>2022.5~</BioYear>
+          MAGIE COMPANY Inc. 代表取締役
+        </BioSection>
+        <BioSection>
           <BioYear>2023.4~</BioYear>
           Yahoo!JAPAN Inc. Software Engineer
         </BioSection>
       </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>
-          Dance, Programming,{' '}
-          <Link href="https://apps.apple.com/jp/developer/shohi-ide/id1539127150" target="_blank">
-            app develop
-          </Link>
-        </Paragraph>
-      </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           On the web
