@@ -44,9 +44,8 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Shouhi Ide
           </Heading>
-          <p>MAGIE COMPANY Inc. 代表取締役</p>
-          <p>founder of Tech.Uni, IT Organization </p>
-          <p>app developer</p>
+          <p>MAGIE COMPANY Inc. CEO</p>
+          {/* <p>Software Engineer @Yahoo</p> */}
         </Box>
         
       </Box>
@@ -113,7 +112,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022.5~</BioYear>
-          MAGIE COMPANY Inc. 代表取締役
+          MAGIE COMPANY Inc. CEO
         </BioSection>
         <BioSection>
           <BioYear>2023.4~</BioYear>

@@ -11,7 +11,7 @@ import {
     Tr,
     Th,
     Td,
-    TableCaption,
+    // TableCaption,
     TableContainer,
     ListItem,
     List,
@@ -22,7 +22,7 @@ import {
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
   import { Title } from '../../components/work'
-  import { IoLogoTwitter, IoLogoInstagram} from 'react-icons/io5'
+  import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
   import thumbHackBAR from '../../public/images/works/Hack.BAR.png'
 
   
@@ -67,7 +67,7 @@ import {
           </Heading>
           <TableContainer>
             <Table variant='simple' size='sm'>
-              <TableCaption>イベント開催は二部制・事前申し込み者限定です</TableCaption>
+              {/* <TableCaption>イベント開催は二部制・事前申し込み者限定です</TableCaption> */}
               <Thead>
                 <Tr>
                   <Th>日時</Th>
@@ -79,10 +79,10 @@ import {
                   <Td>毎週水曜日・木曜日・金曜日 18:00 ~ 23:00</Td>
                   <Td>固定オープン日</Td>
                 </Tr>
-                <Tr>
+                {/* <Tr>
                   <Td>6/25(土) ①18:00 ~ 20:00 / ②21:00 ~ 23:00</Td>
                   <Td>イベント開催</Td>
-                </Tr>
+                </Tr> */}
               </Tbody>
             </Table>
           </TableContainer>
@@ -107,6 +107,39 @@ import {
                 leftIcon={<IoLogoInstagram />}
               >
                 @kobe.engineer_bar ([Hack.BAR] Engineer&apos; BAR)
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.instagram.com/hack_bar_international/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                @hack_bar_international ([Hack.BAR] Engineer&apos; BAR | International ver.)
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/company/hack-bar/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                [Hack.BAR] Engineer&apos; BAR | International ver.
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://github.com/MAGIE-COMPANY-Inc/Hack.BAR.github.io" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                Homepage (OSS)
               </Button>
             </Link>
           </ListItem>
