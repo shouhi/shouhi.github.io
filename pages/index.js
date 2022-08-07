@@ -7,6 +7,7 @@ import {
   Button,
   List,
   ListItem,
+  // Text
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -114,10 +115,14 @@ const Home = () => (
           <BioYear>2022.5~</BioYear>
           MAGIE COMPANY Inc. CEO
         </BioSection>
+        {/* <BioSection>
+          <BioYear>2023.4~</BioYear>
+          <Text as="s">Yahoo! JAPAN Inc. Software Engineer</Text>
+        </BioSection>
         <BioSection>
           <BioYear>2023.4~</BioYear>
-          Yahoo!JAPAN Inc. Software Engineer
-        </BioSection>
+          Recruit Inc. ProductGrowth
+        </BioSection> */}
       </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
