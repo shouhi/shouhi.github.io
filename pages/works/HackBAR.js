@@ -23,7 +23,7 @@ import {
   import Layout from '../../components/layouts/article'
   import { Title } from '../../components/work'
   import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
-  import thumbHackBAR from '../../public/images/works/Hack.BAR.png'
+  import thumbHackBAR from '../../public/images/works/Hack.BAR.jpg'
 
   
   const Work = () => (
@@ -33,7 +33,7 @@ import {
         Hack.BAR <Badge>2022-</Badge>
         </Title>
           <GridItem
-            href="https://hack-bar.vercel.app/"
+            href="https://hackbar.jp/"
             title="エンジニアバー / 飲食店経営"
             thumbnail={thumbHackBAR}
           >
@@ -50,7 +50,8 @@ import {
           ふと、東京・六本木にあるエンジニアバーに行ってみたいと思ったが距離が遠い、、
           「そうだ。自分で三宮に創ってしまおう」そんな成り行きでオープンしました
           <P>コンテンツ
-            <Link href='https://hack-bar.vercel.app/' ml={3}>ホームページ</Link>
+            <Link href='https://hackbar.jp/' ml={3}>公式ホームページ</Link>
+            <Link href='https://hack-bar.vercel.app/' ml={3}>Twitterでバズったホームページ</Link>
             <Link href='https://twitter.com/EngineerBarKobe/status/1523143487050612737?s=20&t=H5WaOv4je5nqya5bk6bNJg' ml={3}>反響あったツイート</Link>
          </P>
         </Box>
@@ -76,7 +77,7 @@ import {
               </Thead>
               <Tbody>
                 <Tr>
-                  <Td>毎週水曜日・木曜日・金曜日 18:00 ~ 23:00</Td>
+                  <Td>毎週金曜日・土曜日 18:00 ~ 23:00</Td>
                   <Td>固定オープン日</Td>
                 </Tr>
                 {/* <Tr>

@@ -9,7 +9,7 @@ import thumbTechUni from '../public/images/works/TechUni.png'
 import thumbSEEDAS from '../public/images/works/SEEDAS.png'
 import thumbBloom from '../public/images/works/Bloom.png'
 import thumbWeb from '../public/images/works/web.png'
-import thumbHackBAR from '../public/images/works/Hack.BAR.png'
+import thumbHackBAR from '../public/images/works/Hack.BAR.jpg'
 
 const Works = () => (
   <Layout title="Works">
