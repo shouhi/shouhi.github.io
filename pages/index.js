@@ -6,7 +6,7 @@ import {
   Box,
   Button,
   List,
-  ListItem,
+  ListItem
   // Text
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -14,15 +14,20 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoTiktok, IoLogoLinkedin } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoTiktok,
+  IoLogoLinkedin
+} from 'react-icons/io5'
 import { MyImage } from '../components/avatar'
-
 
 const Home = () => (
   <Layout>
     <Container>
       <Box display={{ md: 'flex' }}>
-      <Box
+        <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
           mr={{ md: 6 }}
@@ -36,19 +41,18 @@ const Home = () => (
             h="100px"
             display="inline-block"
             borderRadius="full"
-            overflow='hidden'
+            overflow="hidden"
           >
-            <MyImage/>
+            <MyImage />
           </Box>
         </Box>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Shouhi Ide
           </Heading>
-          <p>MAGIE COMPANY Inc. CEO</p>
+          <p>hack.BAR Owener</p>
           {/* <p>Software Engineer @Yahoo</p> */}
         </Box>
-        
       </Box>
 
       <Section delay={0.1}>
@@ -56,7 +60,8 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Shouhi is a Student and an app developer based in Hyogo,Nishinomiya with my friends .
+          Shouhi is a Student and an app developer based in Hyogo,Nishinomiya
+          with my friends .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -81,7 +86,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020.10.26</BioYear>
-        Found Tech.Uni, IT Organization
+          Found Tech.Uni, IT Organization
         </BioSection>
         <BioSection>
           <BioYear>2021.3</BioYear>
@@ -109,11 +114,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022.5~</BioYear>
-          Enginner&apos;s BAR - Hack.BAR - 
+          Enginner&apos;s BAR - Hack.BAR -
         </BioSection>
         <BioSection>
-          <BioYear>2022.5~</BioYear>
-          MAGIE COMPANY Inc. CEO
+          <BioYear>2022.11~</BioYear>
+          Hinome inc. Frontend Engineer
         </BioSection>
         {/* <BioSection>
           <BioYear>2023.4~</BioYear>
@@ -174,7 +179,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/shouhi-ide-941064213/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/shouhi-ide-941064213/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
