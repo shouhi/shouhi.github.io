@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Shouhi Ide
+            John Doe
           </Text>
         </LogoBox>
       </a>

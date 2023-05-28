@@ -48,9 +48,9 @@ const Home = () => (
         </Box>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Shouhi Ide
+            John Doe
           </Heading>
-          <p>hack.BAR Owener</p>
+          <p>Founder of HACK.BAR</p>
           {/* <p>Software Engineer @Yahoo</p> */}
         </Box>
       </Box>
@@ -59,10 +59,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           About
         </Heading>
-        <Paragraph>
-          Shouhi is a Student and an app developer based in Hyogo,Nishinomiya
-          with my friends .
-        </Paragraph>
+        <Paragraph>Founder of Tech.Uni / HACK.BAR. 22 years old</Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
@@ -114,7 +111,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022.5~</BioYear>
-          Enginner&apos;s BAR - Hack.BAR -
+          Enginner&apos;s BAR - HACK.BAR -
         </BioSection>
         <BioSection>
           <BioYear>2022.11~</BioYear>

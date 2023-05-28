@@ -9,7 +9,8 @@ import thumbTechUni from '../public/images/works/TechUni.png'
 import thumbSEEDAS from '../public/images/works/SEEDAS.png'
 import thumbBloom from '../public/images/works/Bloom.png'
 import thumbWeb from '../public/images/works/web.png'
-import thumbHackBAR from '../public/images/works/Hack.BAR.jpg'
+import thumbHackBAR from '../public/images/works/HACKBAR.png'
+import thumbAuctioneer from '../public/images/works/Auctioneer.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -25,12 +26,17 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="ProTain"
-            title="ProTain"
-            thumbnail={thumbProTain}
-          >
+          <WorkGridItem id="ProTain" title="ProTain" thumbnail={thumbProTain}>
             筋トレ管理SNS
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="Auctioneer"
+            title="Auctioneer"
+            thumbnail={thumbAuctioneer}
+          >
+            戦略型オンラインカードゲーム
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -43,43 +49,27 @@ const Works = () => (
         </Heading>
       </Section>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section delay={0.2}>
-          <WorkGridItem
-            id="webp"
-            title="Webp"
-            thumbnail={thumbWeb}
-          >
+        <Section delay={0.2}>
+          <WorkGridItem id="HackBAR" title="Hack.BAR" thumbnail={thumbHackBAR}>
+            エンジニアバー / 飲食店経営
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.2}>
+          <WorkGridItem id="webp" title="Webp" thumbnail={thumbWeb}>
             Web制作 / アプリ開発事業
           </WorkGridItem>
         </Section>
         <Section delay={0.2}>
-          <WorkGridItem
-            id="HackBAR"
-            title="Hack.BAR"
-            thumbnail={thumbHackBAR}
-          >
-            エンジニアバー / 飲食店経営
-          </WorkGridItem>
-        </Section>
-      <Section delay={0.2}>
-          <WorkGridItem
-            id="Bloom"
-            title="Bloom"
-            thumbnail={thumbBloom}
-          >
+          <WorkGridItem id="Bloom" title="Bloom" thumbnail={thumbBloom}>
             完全会員制飲食店
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem
-            id="SEEDAS"
-            title="SEEDAS🌱"
-            thumbnail={thumbSEEDAS}
-          >
+          <WorkGridItem id="SEEDAS" title="SEEDAS🌱" thumbnail={thumbSEEDAS}>
             学生カフェ事業
           </WorkGridItem>
         </Section>
-        </SimpleGrid>
+      </SimpleGrid>
       <Section delay={0.2}>
         <Divider my={6} />
 
@@ -89,12 +79,8 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section delay={0.1}>
-          <WorkGridItem
-            id="TechUni"
-            title="Tech.Uni"
-            thumbnail={thumbTechUni}
-          >
+        <Section delay={0.1}>
+          <WorkGridItem id="TechUni" title="Tech.Uni" thumbnail={thumbTechUni}>
             IT系学生団体
           </WorkGridItem>
         </Section>
