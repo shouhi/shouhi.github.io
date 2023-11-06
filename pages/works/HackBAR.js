@@ -103,7 +103,7 @@ const Work = () => (
       </Box>
       <List>
         <ListItem>
-          <Link href="https://twitter.com/EngineerBarKobe" target="_blank">
+          <Link href="https://twitter.com/HackBarKobe" target="_blank">
             <Button
               variant="ghost"
               colorScheme="teal"
@@ -114,13 +114,13 @@ const Work = () => (
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="https://instagram.com/kobe.engineer_bar" target="_blank">
+          <Link href="https://instagram.com/hack.bar_kobe" target="_blank">
             <Button
               variant="ghost"
               colorScheme="teal"
               leftIcon={<IoLogoInstagram />}
             >
-              @kobe.engineer_bar ([HACK.BAR] Engineer&apos; BAR)
+              @hack.bar_kobe ([HACK.BAR] Engineer&apos; BAR)
             </Button>
           </Link>
         </ListItem>
