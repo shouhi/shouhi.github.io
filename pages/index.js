@@ -18,7 +18,6 @@ import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoTiktok,
   IoLogoLinkedin
 } from 'react-icons/io5'
 import { MyImage } from '../components/avatar'
@@ -50,8 +49,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             John Doe
           </Heading>
-          <p>Founder of HACK.BAR</p>
-          {/* <p>Software Engineer @Yahoo</p> */}
+          <p>Founder of ZEN.LLC </p>
         </Box>
       </Box>
 
@@ -59,7 +57,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           About
         </Heading>
-        <Paragraph>Founder of Tech.Uni / HACK.BAR. 22 years old</Paragraph>
+        <Paragraph>Founder of Tech.Uni / HACK.BAR. 23 years old</Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
@@ -117,12 +115,16 @@ const Home = () => (
           <BioYear>2022.11~</BioYear>
           Hinome inc. Frontend Engineer
         </BioSection>
-        {/* <BioSection>
-          <BioYear>2023.4~</BioYear>
-          <Text as="s">Yahoo! JAPAN Inc. Software Engineer</Text>
+        <BioSection>
+          <BioYear>2023.8~10</BioYear>
+          NOT A HOTEL Inc. Software Engineer
         </BioSection>
         <BioSection>
-          <BioYear>2023.4~</BioYear>
+          <BioYear>2023.8.25</BioYear>
+          ZEN LLC. 創業
+        </BioSection>
+        {/* <BioSection>
+          <BioYear>2024.4~</BioYear>
           Recruit Inc. ProductGrowth
         </BioSection> */}
       </Section>
@@ -143,35 +145,24 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/shouhi_ide" target="_blank">
+            <Link href="https://twitter.com/craftbossa" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @shouhi_ide
+                @craftbossa
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/shouhi_ide" target="_blank">
+            <Link href="https://instagram.com/craftbossa" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @shouhi_ide
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://tiktok.com/@shouhi_lienpuff" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTiktok />}
-              >
-                @shouhi_lienpuff
+                @craftbossa
               </Button>
             </Link>
           </ListItem>
