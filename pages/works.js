@@ -11,6 +11,12 @@ import thumbBloom from '../public/images/works/Bloom.png'
 import thumbWeb from '../public/images/works/web.png'
 import thumbHackBAR from '../public/images/works/HACKBAR.png'
 import thumbAuctioneer from '../public/images/works/Auctioneer.png'
+import thumbContinue from '../public/images/works/continue.png'
+import thumbStartLine from '../public/images/works/startline.png'
+import thumbKonohana from '../public/images/works/konohana.png'
+import thumbJDO from '../public/images/works/jdoshiga.png'
+import HACKBAR01 from '../public/images/works/hackbar01.png'
+import HACKBAR02 from '../public/images/works/hackbar02.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -70,6 +76,69 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
+
+      <Section delay={0.2}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          web制作実績
+        </Heading>
+      </Section>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="HackBAR"
+            title="バー LP制作"
+            link={'https://hack-bar.vercel.app'}
+            thumbnail={HACKBAR01}
+          >
+            SNSで話題を生んだバズるランディングページ
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="HackBAR"
+            title="バー HP制作"
+            link={'https://hackbar.jp'}
+            thumbnail={HACKBAR02}
+          >
+            バーの雰囲気にあったホームページ
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.2}>
+          <WorkGridItem
+            id=""
+            title="イベントLP制作"
+            link={'https://continue.startupside.jp/'}
+            thumbnail={thumbContinue}
+          ></WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id=""
+            title="公共事業ホームページ制作"
+            link={'https://www.osaka-startup.com/program/startline/'}
+            thumbnail={thumbStartLine}
+          ></WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id=""
+            title="採用LP制作"
+            link={'https://konohana.vercel.app/'}
+            thumbnail={thumbKonohana}
+          ></WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id=""
+            title="ドローン事業ホームページ制作"
+            link={'https://jdo-shiga.com/'}
+            thumbnail={thumbJDO}
+          ></WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
       <Section delay={0.2}>
         <Divider my={6} />
 
