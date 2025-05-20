@@ -6,10 +6,11 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbProTask from '../public/images/works/ProTask.png'
 import thumbProTain from '../public/images/works/ProTain.png'
 import thumbTechUni from '../public/images/works/TechUni.png'
-import thumbSEEDAS from '../public/images/works/SEEDAS.png'
-import thumbBloom from '../public/images/works/Bloom.png'
-import thumbWeb from '../public/images/works/web.png'
+// import thumbSEEDAS from '../public/images/works/SEEDAS.png'
+// import thumbBloom from '../public/images/works/Bloom.png'
+// import thumbWeb from '../public/images/works/web.png'
 import thumbHackBAR from '../public/images/works/HACKBAR.png'
+import thumbawabarKobe from '../public/images/works/awabar.png'
 import thumbAuctioneer from '../public/images/works/Auctioneer.png'
 import thumbContinue from '../public/images/works/continue.png'
 import thumbStartLine from '../public/images/works/startline.png'
@@ -56,23 +57,17 @@ const Works = () => (
       </Section>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.2}>
-          <WorkGridItem id="HackBAR" title="Hack.BAR" thumbnail={thumbHackBAR}>
-            エンジニアバー / 飲食店経営
+          <WorkGridItem id="HackBAR" title="HACK.BAR" thumbnail={thumbHackBAR}>
+            バー / 飲食店経営
           </WorkGridItem>
         </Section>
         <Section delay={0.2}>
-          <WorkGridItem id="webp" title="Webp" thumbnail={thumbWeb}>
-            Web制作 / アプリ開発事業
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.2}>
-          <WorkGridItem id="Bloom" title="Bloom" thumbnail={thumbBloom}>
-            完全会員制飲食店
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="SEEDAS" title="SEEDAS🌱" thumbnail={thumbSEEDAS}>
-            学生カフェ事業
+          <WorkGridItem
+            id="awabarKobe"
+            title="awabar Kobe"
+            thumbnail={thumbawabarKobe}
+          >
+            バー / 飲食店経営
           </WorkGridItem>
         </Section>
       </SimpleGrid>

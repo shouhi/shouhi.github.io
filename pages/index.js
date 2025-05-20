@@ -49,7 +49,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             John Doe
           </Heading>
-          <p>Founder of ZEN.LLC </p>
+          <p>合同会社ZEN代表 / HarborNet株式会社 代表取締役</p>
         </Box>
       </Box>
 
@@ -57,7 +57,13 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           About
         </Heading>
-        <Paragraph>Founder of Tech.Uni / HACK.BAR. 23 years old</Paragraph>
+        <Paragraph>
+          エンジニアが集まるバー
+          HACK.BARを運営する合同会社ZENと投資家やスタートアップ、経営者が集まるawabar
+          Kobeを運営するHarborNet株式会社を経営しています。
+          <br />
+          神戸で2店舗のバーの経営とシステム受託開発などを行なっています。
+        </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
@@ -109,7 +115,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022.5~</BioYear>
-          Enginner&apos;s BAR - HACK.BAR -
+          HACK.BAR（Enginner&apos;s BAR）創業
         </BioSection>
         <BioSection>
           <BioYear>2022.11~</BioYear>
@@ -122,6 +128,14 @@ const Home = () => (
         <BioSection>
           <BioYear>2023.8.25</BioYear>
           ZEN LLC. 創業
+        </BioSection>
+        <BioSection>
+          <BioYear>2024.9.9</BioYear>
+          HarborNet Inc. 創業
+        </BioSection>
+        <BioSection>
+          <BioYear>2024.10.1</BioYear>
+          awabar Kobe 創業
         </BioSection>
         {/* <BioSection>
           <BioYear>2024.4~</BioYear>
